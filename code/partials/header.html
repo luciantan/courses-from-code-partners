@@ -1,0 +1,59 @@
+﻿<nav class="navbar navbar-inverse navbar-fixed-top nopadding">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span id="logo" style="">Code Partners</span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li ng-class="{'active' : CodeVm.page === 'home'}"><a href="/Portal/Index.html#/code">Home</a></li>
+            <li ng-class="{'active' : CodeVm.page === 'about'}"><a href="/Portal/Index.html#/code/about">About</a></li>
+            <!-- <li ng-class="{'active' : CodeVm.page === 'course'}"><a href="/Portal/Index.html#/codepartners/courses">Courses</a></li> -->
+            <li class="dropdown" ng-class="{'active' : CodeVm.page === 'course'}">
+                <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="/Portal/Index.html#/codepartners/courses">Courses -->
+                <a class="dropdown-toggle" data-toggle="dropdown">Courses
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/Portal/Index.html#/code/courses/501_DSA">501_DSA</a></li>
+                  <li><a href="/Portal/Index.html#/code/courses/401_JS">401_JS</a></li>
+                  <li><a href="/Portal/Index.html#/code/courses/401_PYTHON">401_PYTHON</a></li>
+                  <li><a href="/Portal/Index.html#/code/courses/401_MOBILE">401_MOBILE</a></li>
+                </ul>
+            </li>
+            <li ng-class="{'active' : CodeVm.page === 'students'}"><a href="/Portal/Index.html#/code/students">Prospective Students</a></li>
+            <li ng-class="{'active' : CodeVm.page === 'location'}"><a href="/Portal/Index.html#/code/location">Location</a></li>
+            <li ng-class="{'active' : CodeVm.page === 'tuition'}"><a href="/Portal/Index.html#/code/tuition">Tuition</a></li>
+            <li class="dropdown" ng-class="{'active' : CodeVm.page === 'codepartners'}">
+                <a class="dropdown-toggle" data-toggle="dropdown" style="line-height:22px;">Apply</a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <form class="" style=" width: 300px;right:0px;left:auto; padding: 10px 10px 10px 10px">
+                            <div class="form-group">
+                                <label for="exampleDropdownFormFirstName">First Name *</label>
+                                <input type="text" class="form-control" id="" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDropdownFormLastName">Last Name *</label>
+                                <input type="text" class="form-control" id="" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDropdownFormEmail1">Email address</label>
+                                <input type="email" class="form-control" id="" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDropdownFormPassword1">Message</label>
+                                <input type="text" class="form-control" id="" placeholder="Type your message here (max 3000 characters)">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                <label class="form-check-label" for="dropdownCheck">
+                                    Subscribe me to the newsletter
+                                </label>
+                            </div>
+                            <button type="submit" class="btn" style="margin-top:10px;">Reset</button>
+                            <button type="submit" class="btn btn-primary" style="margin-top:10px;">Submit</button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>

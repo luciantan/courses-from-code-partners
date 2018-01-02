@@ -1,0 +1,238 @@
+﻿
+#cornerLogo {    
+    width: 150px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.center{
+    text-align: center;
+}
+/* background setup */
+        .background {
+            background-repeat: no-repeat;
+            /* custom background-position */
+            background-position: 50% 50%;
+            /* ie8- graceful degradation */
+            background-position: 50% 50%\9 !important;
+        }
+
+        /* fullscreen setup */
+        html, body {
+            /* give this to all tags from html to .fullscreen */
+            height: 100%;
+            
+        }
+
+        .fullscreen,
+        .content-a {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .superFullscreen {
+            width: 100%;
+            height: 220%;
+            overflow: hidden;
+        }
+
+            .fullscreen.overflow,
+            .fullscreen.overflow .content-a {
+                height: auto;
+                min-height: 100%;
+            }
+
+        /* content centering styles */
+        .content-a {
+            display: table;
+        }
+
+        .content-b {
+            display: table-cell;
+            position: relative;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        /* visual styles */
+        /*body {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 28px;
+            line-height: 100px;
+            color: #ffffff;
+            text-align: center;
+        }*/
+
+        section {
+            background: #06AAE2;
+        }
+
+        .not-fullscreen {
+            height: 50%;
+        }
+
+        #onsiteImgDiv:hover{
+            transform: scale(1.1);
+            transition: all .2s ease-in-out;
+        }
+
+        #onlineImgDiv:hover {
+            transform: scale(1.1);
+            transition: all .2s ease-in-out;
+        }
+
+        .ImageColor {
+            width: 100%;
+            height: 110%;
+            background-color: rgba(0,0,0,0.1);
+            color: #fff;
+        }
+
+        .media-icon-list {
+            display: inline-block;
+            right: 3%;
+            width: 60px;
+        }
+
+        a .media-icon-list-item {
+            font-size: 30px;
+            text-align: center;
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border: 2px solid;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px black;
+            color: white;
+            transition: all 150ms linear;
+            -webkit-transition: all 150ms linear;
+            -ms-transition: all 150ms linear;
+            text-decoration: none;
+        }
+
+        .media-icon-list-item:hover {
+            width: 60px;
+            height: 60px;
+            font-size: 35px;
+        }
+
+        .media-icon-table-div {
+            display: inline-block;
+            border: none;
+            height: 80px;
+        }
+
+        .CPfooterLink:hover{
+            color: #ff6a00;
+            transform: scale(1.1);
+        }
+
+        .HeaderBox {
+            float: right;
+            width: 10%;
+            color: white;
+            height: 70px;
+        }
+
+        .HeaderBox2 {
+            float: right;
+            width: 10%;
+            vertical-align: middle;
+            color: white;
+            height: 70px;
+            background-color: rgba(0,0,0,0.7);
+        }
+
+        .HeaderBox:hover {
+            background-color: black !important;
+        }
+
+        .HeaderBox2:hover {
+            background-color: #E41D8A !important;
+        }
+
+        #newsletterSubmit:hover{
+            box-shadow: 2px 2px 10px black;
+            transition: all 0.35s;
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 414px) {
+            .superFullscreen {
+                height: 160% !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .superFullscreen {
+                height: 190% !important;
+            }
+        }
+        
+
+
+        @media (max-width: 1440px) {
+            #PagePort1TopBar{
+                height: 100vh !important;
+            } 
+            
+            #PagePort1BottomBar {
+                height: 30% !important;
+            }
+            .superFullscreen{
+                height: 260% !important;
+            }
+        }
+
+
+        @media (max-width: 1024px) {
+            #PagePort1BottomBar {
+                height: 25% !important;
+            }
+            #PagePort1BottomBarText{
+                font-size: 24px !important;
+            }
+            #InfographyClassText1{
+                font-size: 40px !important;
+            }
+            #InfographyClassText2 {
+                font-size: 40px !important;
+                margin-top: 0px !important;
+                margin-left: 30% !important;
+                float: left;
+            }
+            #CourseImageShield{
+                margin-left: 40% !important;
+            }
+            .superFullscreen {
+                height: 385% !important;
+            }
+            #CourseTitleText{
+                font-size:34px !important;
+            }
+            #CourseContentText{
+                font-size:16px !important;
+            }
+            #CPquoteText{
+                font-size: 20px !important;
+                padding-left: 0px !important;
+            }
+            #newsletterSlideDiv {
+                margin-left: 0px !important;
+            } 
+        }
+
+        #headerLinks:hover {
+            background-color: #3e3e3e !important;
+            color: black !important;
+            transition: all .4s ease-in-out;
+        }
+
+        #headerLinks2:hover {
+            background-color: black !important;
+            transition: all .4s ease-in-out;
+        }
+        .nav>li>a:focus, .nav>li>a:hover{
+            background-color: inherit !important;
+        }

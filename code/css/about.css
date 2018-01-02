@@ -1,0 +1,76 @@
+﻿#headerLinks:hover {
+            background-color: #3e3e3e !important;
+            color: black !important;
+            transition: all .4s ease-in-out;
+        }
+         @media (max-width: 1024px) {
+            #PagePort1BottomBar {
+                height: 25% !important;
+            }
+            #PagePort1BottomBarText{
+                font-size: 24px !important;
+            }
+            #InfographyClassText1{
+                font-size: 40px !important;
+            }
+            #InfographyClassText2 {
+                font-size: 40px !important;
+                margin-top: 0px !important;
+                margin-left: 30% !important;
+                float: left;
+            }
+            #CourseImageShield{
+                margin-left: 40% !important;
+            }
+            .superFullscreen {
+                height: 385% !important;
+            }
+            #CourseTitleText{
+                font-size:34px !important;
+            }
+            #CourseContentText{
+                font-size:16px !important;
+            }
+            #CPquoteText{
+                font-size: 20px !important;
+                padding-left: 0px !important;
+            }
+            #newsletterSlideDiv {
+                margin-left: 0px !important;
+            } 
+        }
+        .content-a {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /*logo animation*/
+        @-webkit-keyframes typing {
+            0% {
+                width: 0;
+            }
+            65% {
+                width: 14ch;
+            }
+            100% {
+                width: 14ch;
+            }
+        }
+
+        @-webkit-keyframes blink-caret {
+            50% {
+                border-color: transparent;
+            }
+        }
+        #logo {
+            border-right: .1em solid black !important;
+            width: 16.5em !important;
+            width: 14ch !important;
+            margin-top: 20px;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            animation: typing 5s steps(14, end) alternate infinite, blink-caret .5s step-end infinite alternate !important;
+            -webkit-animation: typing 5s steps(14, end) alternate infinite, blink-caret .5s step-end infinite alternate !important;
+            -moz-animation: typing 5s steps(14, end) alternate infinite, blink-caret .5s step-end infinite alternate !important;
+        }

@@ -1,0 +1,102 @@
+﻿
+
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 1rem;
+}
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: .25rem;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blog-header {
+    padding: 0px 20px;
+}
+
+#headerLinks:hover {
+    background-color: #3e3e3e !important;
+    color: black !important;
+    transition: all .4s ease-in-out;
+}
+@media (max-width: 1024px) {
+    #PagePort1BottomBar {
+        height: 25% !important;
+    }
+
+    #PagePort1BottomBarText {
+        font-size: 24px !important;
+    }
+
+    #InfographyClassText1 {
+        font-size: 40px !important;
+    }
+
+    #InfographyClassText2 {
+        font-size: 40px !important;
+        margin-top: 0px !important;
+        margin-left: 30% !important;
+        float: left;
+    }
+
+    #CourseImageShield {
+        margin-left: 40% !important;
+    }
+
+    .superFullscreen {
+        height: 385% !important;
+    }
+
+    #CourseTitleText {
+        font-size: 34px !important;
+    }
+
+    #CourseContentText {
+        font-size: 16px !important;
+    }
+
+    #CPquoteText {
+        font-size: 20px !important;
+        padding-left: 0px !important;
+    }
+
+    #newsletterSlideDiv {
+        margin-left: 0px !important;
+    }
+}
+
+.content-a {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+

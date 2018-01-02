@@ -1,0 +1,31 @@
+﻿
+
+<link rel="stylesheet" type="text/css" href="/Portal/Customers/code/css/courses.css">
+<link rel="stylesheet" type="text/css" href="/Portal/Customers/code/css/header.css" />
+
+<div ng-controller="CodeController as CodeVm">
+
+    <div ng-include="'/Portal/Customers/code/partials/header.html'" ng-model="CodeVm.page" ng-init="CodeVm.page='course'"></div>
+
+    <div>
+
+        <!-- Banner -->
+        <div class="jumbotron">
+
+        </div>
+
+       <!-- <a ng-repeat="(key, value) in CodeVm.dictionary" href="{{value}}">{{key}}</a>-->
+        <a href="/Portal/Index.html#/codepartners/courses/501_DSA">501_DSA</a>
+        <a href="/Portal/Index.html#/codepartners/courses/401_JS">401_JS</a>
+        <a href="/Portal/Index.html#/codepartners/courses/401_PYTHON">401_PYTHON</a>
+        <a href="/Portal/Index.html#/codepartners/courses/401_MOBILE">401_MOBILE</a>
+
+
+        <!-- courses -->
+        <div ng-include="CodeVm.coursePath"></div>
+
+    </div>
+
+</div>
+
+<script src="/Portal/Customers/code/scripts/preventDefault.js"></script>
